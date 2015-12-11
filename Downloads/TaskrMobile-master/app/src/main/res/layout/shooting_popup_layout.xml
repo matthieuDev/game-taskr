@@ -1,0 +1,33 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+    <Button
+        android:id="@+id/option1"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:text="Red, Green, Green"
+        android:onClick="option1"
+        />
+    <Button
+        android:id="@+id/option2"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:text="Blue, Blue, Blue"
+        android:onClick="option2"
+        android:layout_below="@+id/option1"/>
+    <Button
+        android:id="@+id/option3"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:text="Yellow, Green, Blue"
+        android:onClick="option3"
+        android:layout_below="@+id/option2"/>
+    <Button
+        android:id="@+id/option4"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:text="Blue, Red, Yellow"
+        android:onClick="option4"
+        android:layout_below="@+id/option3"/>
+</RelativeLayout>
